@@ -21,7 +21,16 @@ cd msbuild-shellcode
 python3 build.py -h
 
 usage: build.py [-h] -x PAYLOAD -l LHOST -p LPORT [-a ARCH]
-build.py: error: the following arguments are required: -x/--payload, -l/--lhost, -p/--lport
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -x PAYLOAD, --payload PAYLOAD
+                        Payload
+  -l LHOST, --lhost LHOST
+                        LHOST
+  -p LPORT, --lport LPORT
+                        LPORT
+  -a ARCH, --arch ARCH  Architecture (x86)
 ```
 
 ## Usage
