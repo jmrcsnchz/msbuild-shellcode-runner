@@ -9,7 +9,7 @@ Thanks to [ired.team](https://www.ired.team/) for publishing an article using ms
 Install the metasploit framework first before using this
 
 ```bash
-git clone https://github.com/jmrcsnchz/msbuild-shellcode.git
+git clone https://github.com/jmrcsnchz/msbuild-shellcode-runner.git
 ```
 ```bash
 pip3 install argparse
